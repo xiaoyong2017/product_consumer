@@ -26,7 +26,7 @@ public class ProConsumer01 {
     }
 
     public static void main(String args[]) {
-        ReentrantLockProductConsumer shareData2 = new ReentrantLockProductConsumer();
+       /* ReentrantLockProductConsumer shareData2 = new ReentrantLockProductConsumer();
         new Thread(() -> {
             for (int i = 0; i < 5; i++) {
                 shareData2.increase();
@@ -37,7 +37,7 @@ public class ProConsumer01 {
             for (int i = 0; i < 5; i++) {
                 shareData2.decrease();
             }
-        }, "t2").start();
+        }, "t2").start();*/
     }
 
 
